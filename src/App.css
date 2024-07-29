@@ -1,38 +1,24 @@
-.App {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  /* background: radial-gradient(rgb(0, 255, 60) 5%, rgb(34, 36, 39) 15%, rgb(0, 0, 0) 60%); */
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  /* width: 100%; */
+  /* height: 100%; */
+  background: linear-gradient(to bottom, rgb(28, 26, 26), rgb(255, 203, 46), rgb(180, 184, 184)); 
+  
   min-height: 100vh;
+  
+}
+
+.App {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-align: center; /* Not sure if this is necessary...*/
+  /* height: 100%;
+  width: 100%; */
+  /* overflow: hidden; */
 }

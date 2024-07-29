@@ -1,0 +1,98 @@
+.slide {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 1s ease-in-out; /* Smooth transition */
+    opacity: 0; /* Start hidden */
+  }
+  
+  
+.gallery-image {
+    width: 100%;
+    height: auto;
+    object-fit:cover; /* Ensure the image covers the container */
+}
+
+.carousel-header {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+
+.carousel-container {
+    display: flex;
+    overflow: hidden; /* Hide images that are not in view */
+    position: relative; /*Forces the children (i.e. the .gallery-image) to be positioned relative to this carousel-container */
+    width: 60rem; /* Adjust based on your requirements */
+    height: 50rem; /* Adjust based on your requirements */
+}
+
+
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+} 
+
+.nav-button {
+    position: absolute;
+    /* top: 50%; */
+    height: 100%;
+    background: rgba(97, 97, 97, 0.5); 
+    color: white; /* White text color */
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 10; /* Ensure buttons are on top of the images */
+}
+
+.nav-button:hover {
+    background: rgba(3, 3, 3, 0.8); /* Darker background on hover */
+}
+
+.prev {
+    left: 0; /* Position to the left side */
+    border-right-color: #ff8300;
+    border-right-style: ridge;
+}
+
+.next {
+    right: 0; /* Position to the right side */
+    border-left-color: #ff8300;
+    border-left-style: ridge;
+}
+  
+
+.text-overlay {
+    position: absolute;
+    max-width: 13rem;
+    /* bottom: 10px; Position text at the bottom */
+    left: 10%;
+    font-weight: bold;
+    font-size: 2rem; 
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: #6ed0ff; /* White text color */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+    z-index: 200;
+    top: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .carousel-container {
+        width: 30rem;
+        height: 20rem;
+    }
+
+    .text-overlay{
+        left: 15%;
+        max-width: 8rem;
+        font-size: 1rem; 
+    }
+
+}

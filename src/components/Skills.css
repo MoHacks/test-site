@@ -1,0 +1,240 @@
+.skills-section{
+    width: 70rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+
+.skills-title {
+    font-size: 3rem;
+    align-items: center;
+    color: #00508a;
+    font-size: 4rem;
+}
+
+.row-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.left-row-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 3rem;
+    text-align: start;
+    width: 40%;
+}
+
+.left-row-1 h2{
+    color: #441b1b;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.left-row-1 p{
+    color: #302d97;
+    font-size: 2rem;
+    margin-top: 0rem;
+}
+
+.centre-block-1{
+    display: flex;
+    align-items: flex-start;
+    width: 7.5rem;
+    height: 3.5rem;
+    margin-top: 4.75rem;
+    margin-left: 2.5rem;
+}
+
+.right-row-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 15.5rem;
+    margin-top: 4.75rem;
+}
+
+.centre-icon-wrap {
+    display: flex;
+    background-color: #c8db83;
+    border-radius: 1.1875rem;
+    justify-content: center;
+    width: 7rem;
+    height: 7rem;
+    left: 2rem;
+    box-shadow: 0 0 10px rgba(230, 203, 255, .6), 
+                0 0 20px rgb(21, 1, 255); 
+    z-index: 1;
+    margin-top: 1rem;
+}
+.centre-number{
+    margin-top: 2rem;
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.row-2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 1rem;
+}
+.left-row-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 3rem;
+    text-align: start;
+    width: 40%;
+}
+
+.left-row-2 h2{
+    color: #441b1b;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.left-row-2 p{
+    color: #302d97;
+    font-size: 2rem;
+    margin-top: 0rem;
+}
+
+
+.centre-block-2{
+    display: flex;
+    align-items: flex-start;
+    width: 7.5rem;
+    height: 3.5rem;
+    margin-top: 4.75rem;
+    margin-left: 2.5rem;
+}
+
+.right-row-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 15.5rem;
+    margin-top: 4.75rem;
+}
+
+.row-3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.left-row-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 15.5rem;
+    margin-top: 3rem;
+    text-align: start;
+    width: 40%;
+}
+
+.left-row-3 h2{
+    color: #441b1b;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.left-row-3 p{
+    color: #302d97;
+    font-size: 2rem;
+    margin-top: 0rem;
+}
+
+.centre-block-3{
+    display: flex;
+    align-items: flex-start;
+    width: 7.5rem;
+    height: 3.5rem;
+    margin-top: 4.75rem;
+    margin-left: 2.5rem;
+}
+
+.right-row-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 15.5rem;
+    margin-top: 4.75rem;
+}
+
+.process-line {
+    width: 0.2rem;
+    height: 67rem; 
+    background-color: #5b5b5b; 
+    margin-bottom: 9rem;
+    position: absolute;
+    margin-top: 16.3rem;
+    z-index: 0;
+}
+
+.slide-in-left {
+    animation: slide-in-left 1s forwards;
+}
+
+.slide-in-right {
+animation: slide-in-right 1s forwards;
+}
+
+@keyframes slide-in-left {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 1000px) {
+    .img-1, .img-2, .img-3 {
+      display: none; /* Hide the images */
+    }
+    .skills-section .row-1, .skills-section .row-2, .skills-section .row-3 {
+        justify-content: center;
+    }
+
+    .process-line {
+        margin-left: 32rem;
+        height: 50rem;
+    }
+
+
+}

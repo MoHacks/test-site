@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Inter:wght@100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+.Hero-container{
+    display: flex;
+    flex-direction: column; /*Stack children vertically */
+    /* justify-content: flex-start; */
+    align-items: center;
+    height: 100%;
+    /* max-width: 50%; */
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.cursive {
+    /* rotate: 270deg; */
+    width: 50rem;
+    height: 2rem;
+}
+
+.hero-image {
+    width: 8rem;               /* Set the width of the image */
+    height: 8rem;              /* Set the height of the image */
+    object-fit: cover;          /* Ensure the image covers the dimensions without distortion */
+    margin-top: 2rem;
+    /* flex-wrap: wrap; */
+}
+
+.hero-title {
+    /* color: #2b283c; */
+    color: #9186ff;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: "Great Vibes", cursive;
+    font-weight: bold;
+    /* font-style: normal; */
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-bottom: 0rem;
+}
+
+.hero-subtitle {
+    color: rgba(137, 167, 255, 0.59);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* font-style: normal; */
+    margin-left: 5rem;
+}
