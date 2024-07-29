@@ -34,7 +34,8 @@ const ContactUs = () => {
     
     <div className='contact-container'>
       <div class="fading-border"></div>
-      <h1 className='contact-title'>Get a FREE Quote</h1>
+      <h1 className='contact-title'>Contact Us</h1>
+      <h2 className='contact-subheader'>Get a FREE Quote!</h2>
       <form className='contact-form' onSubmit={handleSubmit}>
         <label htmlFor='name'>Name</label>
         <input
