@@ -104,12 +104,12 @@ const data = [
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
   },
   {
-    name: `Rigo Louie`,
+    name: `Mia Williams`,
     img: d,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
   },
   {
-    name: `Mia Williams`,
+    name: `Rigo Louie`,
     img: e,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
   },
