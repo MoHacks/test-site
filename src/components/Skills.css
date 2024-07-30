@@ -22,7 +22,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 100%;
+    /* width: 100%; */
     margin-left: 1rem;
 }
 
@@ -90,7 +90,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 100%;
+    /* width: 100%; */
     margin-left: 1rem;
 }
 .left-row-2{
@@ -138,7 +138,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 100%;
+    /* width: 100%; */
     margin-left: 1rem;
 }
 
@@ -191,6 +191,7 @@
     position: absolute;
     margin-top: 16.3rem;
     z-index: 0;
+    margin-right: 1rem;
 }
 
 .slide-in-left {
@@ -232,9 +233,139 @@ animation: slide-in-right 1s forwards;
     }
 
     .process-line {
-        margin-left: 32rem;
-        height: 50rem;
+        margin-left: 31rem;
+        height: 51rem;
     }
 
+}
+
+/* @media (max-width: 647px) {
+    .img-1, .img-2, .img-3 {
+      display: none;
+    }
+    .skills-section .row-1, .skills-section .row-2, .skills-section .row-3 {
+        justify-content: center;
+    }
+    
+    .row-1{
+        margin-left: 0rem;
+    }
+
+    .left-row-1 h2{
+        font-size: 2.5rem;
+    }
+
+    .left-row-1 p{
+        font-size: 2rem;
+    }
+
+    .row-2{
+        margin-left: 0rem;
+    }
+
+    .left-row-2 h2{
+        font-size: 2.5rem;
+    }
+
+    .left-row-2 p{
+        font-size: 2rem;
+    }
+
+    .row-3{
+        margin-left: 0rem;
+    }
+
+    .left-row-3 h2{
+        font-size: 2.5rem;
+    }
+
+    .left-row-3 p{
+        font-size: 2rem;
+    }
+
+    .process-line {
+        margin-left: 30rem;
+        height: 41rem;
+    }
+
+} */
+
+@media (max-width: 647px) {
+    .img-1, .img-2, .img-3 {
+      display: none; 
+    }
+    .skills-section{
+        width: 30rem;
+    }
+    .skills-section .row-1, .skills-section .row-2, .skills-section .row-3 {
+        justify-content: center;
+    }
+    
+    .row-1{
+        margin-left: 0rem;
+    }
+
+    .left-row-1{
+        width: 20%;
+    }
+
+    .left-row-1 h2{
+        font-size: 2.5rem;
+    }
+
+    .left-row-1 p{
+        font-size: 2rem;
+    }
+
+    .centre-block-1{
+        margin-left: 6rem;
+    }
+
+    .row-2{
+        margin-left: 0rem;
+    }
+
+    .left-row-2{
+        width: 20%;
+    }
+
+    .left-row-2 h2{
+        font-size: 2.5rem;
+    }
+
+    .left-row-2 p{
+        font-size: 2rem;
+    }
+
+    .centre-block-2{
+        margin-left: 6rem;
+    }
+
+    .row-3{
+        margin-left: 0rem;
+    }
+
+    .left-row-3{
+        width: 20%;
+    }
+
+    .left-row-3 h2{
+        font-size: 2.5rem;
+    }
+
+    .left-row-3 p{
+        font-size: 2rem;
+    }
+
+    .centre-block-3{
+        margin-left: 6rem;
+    }
+
+    .process-line {
+        margin-left: 13rem;
+        margin-top: 19rem;
+        height: 108rem;
+    }
 
 }
+

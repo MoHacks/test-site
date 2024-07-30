@@ -17,7 +17,7 @@ const slides = [
 const Hero = () => {
   return (
     <div className='hero-header'>
-      <div className='Hero-container'>
+      <div className='hero-container'>
         <div className='images-container'>
           <img src={B} alt="B" className='hero-image'></img>
           <img src={dollar} alt="dollar" className='hero-image'></img>
@@ -27,9 +27,6 @@ const Hero = () => {
         <h1 className='hero-title'>
           Brute Sales Bootcamp
         </h1>
-        <div>
-          <img src={cursive} alt="cursive" className='cursive'></img>
-        </div>
         <h2 className='hero-subtitle'>Ready to take your business to the next level? This rigorous bootcamp will help you get there.</h2>
         {/* <h2 className='hero-subtitle'>Master <span style={{ fontWeight: 'bolder', color:'#0040ff96'}}> client out-reach, sales, marketing, and closing high-ticket offers </span> with our exclusive master class  */}
           {/* Sales Bootcamp Program!</h2> */}

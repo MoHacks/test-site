@@ -79,7 +79,7 @@ const Skills = () => {
           {/* Row 2 */}
           <div className='row-2'>
             <div className={`left-row-2 ${isInView.text2 ? 'slide-in-left' : ''}`} ref={text2Ref} data-key="text2">
-              <h2>Rigorous Mentorship and Training Programs</h2>
+              <h2>Rigorous Mentors and Training Programs</h2>
               <p>Learn from those that have over a decade experience and made over 7 figures with high-ticket sales.</p>
             </div>
             <div className='centre-block-2'>

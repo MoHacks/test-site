@@ -12,4 +12,12 @@
     align-items: center;
     color: #00508a;
     font-size: 4rem;
+    text-align: center;
+    justify-content: center;
 }
+
+/* @media screen and (max-width: 400px) {
+  .testimonials-title{
+    margin-right: 2rem;
+  }
+} */
