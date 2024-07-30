@@ -306,7 +306,7 @@ animation: slide-in-right 1s forwards;
     }
 
     .left-row-1{
-        width: 20%;
+        width: 33%;
     }
 
     .left-row-1 h2{
@@ -318,7 +318,7 @@ animation: slide-in-right 1s forwards;
     }
 
     .centre-block-1{
-        margin-left: 6rem;
+        margin-left: 4rem;
     }
 
     .row-2{
@@ -326,7 +326,7 @@ animation: slide-in-right 1s forwards;
     }
 
     .left-row-2{
-        width: 20%;
+        width: 33%;
     }
 
     .left-row-2 h2{
@@ -338,7 +338,7 @@ animation: slide-in-right 1s forwards;
     }
 
     .centre-block-2{
-        margin-left: 6rem;
+        margin-left: 4rem;
     }
 
     .row-3{
@@ -346,7 +346,7 @@ animation: slide-in-right 1s forwards;
     }
 
     .left-row-3{
-        width: 20%;
+        width: 33%;
     }
 
     .left-row-3 h2{
@@ -358,11 +358,11 @@ animation: slide-in-right 1s forwards;
     }
 
     .centre-block-3{
-        margin-left: 6rem;
+        margin-left: 4rem;
     }
 
     .process-line {
-        margin-left: 13rem;
+        margin-left: 15rem;
         margin-top: 19rem;
         height: 128rem;
     }
